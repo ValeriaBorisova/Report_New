@@ -1,3 +1,5 @@
+[![Python package](https://github.com/ValeriaBorisova/Report_New/actions/workflows/python-package.yml/badge.svg)](https://github.com/ValeriaBorisova/Report_New/actions/workflows/python-package.yml)
+
 # Report_New
 Python_Autotests
 
