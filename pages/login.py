@@ -2,7 +2,7 @@ import logging
 
 from fixtures.locators.login import LoginLocators
 from fixtures.models.login import LoginData
-from fixtures.pages.base_page import BasePage
+from pages.base_page import BasePage
 
 logger = logging.getLogger("moodle")
 
@@ -22,7 +22,4 @@ class LoginPage(BasePage):
             self.click_element(locator=LoginLocators.LOGIN_BTN)
 
     def _get_error_text(self) -> str:
-        
         return self.get_text(locator=LoginLocators.LOGIN_BTN)
-
-

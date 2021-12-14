@@ -3,7 +3,7 @@ import logging
 
 from fixtures.locators.register import RegisterLocators
 from fixtures.models.register import RegisterData
-from fixtures.pages.base_page import BasePage
+from pages.base_page import BasePage
 
 logger = logging.getLogger("moodle")
 

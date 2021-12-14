@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 from fixtures.models.settings_model import SettingsData
-from fixtures.pages.base_page import BasePage
+from pages.base_page import BasePage
 
 
 class Settings(BasePage):

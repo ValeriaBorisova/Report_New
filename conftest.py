@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 
 
 from fixtures.models.login import LoginData
-from fixtures.application import Application
+from pages.application import Application
 
 logger = logging.getLogger("moodle")
 

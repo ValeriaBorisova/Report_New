@@ -1,7 +1,6 @@
-from fixtures.pages.login import LoginPage
-from fixtures.pages.settings import Settings
-from fixtures.pages.register import RegisterPage
-
+from pages.login import LoginPage
+from pages.register import RegisterPage
+from pages.settings import Settings
 
 
 class Application:

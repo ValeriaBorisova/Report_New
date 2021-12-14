@@ -1,9 +1,9 @@
-from fixtures.constants import Errors
- from fixtures.models.register import RegisterData
+from fixtures.constans import Errors
+from fixtures.models.register import RegisterData
 
 
- class TestRegistration:
-     def test_registration_with_valid_data(self, app, user_data):
+class TestRegistration:
+    def test_registration_with_valid_data(self, app, user_data):
         """
         Steps:
          1. Open register page
